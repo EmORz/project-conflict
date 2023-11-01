@@ -2,6 +2,7 @@ package task_1;
 
 public class Main {
 
+
     public static void main(String[] args) {
 
         var i =0;
@@ -12,6 +13,10 @@ public class Main {
             if (i == 20) {
                 return;
             }
+          
+      for (int i = 0; i < 20; i++) {
+            System.out.println("Разград - "+i);
+
         }
-    }
+
 }
